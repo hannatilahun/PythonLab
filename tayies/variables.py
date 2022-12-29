@@ -1,4 +1,4 @@
-x,y,z = "one", "two", 3
+x,y,z = "one", 9.0, 3
 
 def vars():
     print("X:"+x+" Y:"+y+" Z:"+z)
@@ -6,6 +6,8 @@ def vars():
 
 def varType():
     print(type(z))
+    print(type(y))
+    print(type(x))
 # C:\Users\tayie\New folder\PythonLab\tayies
 
 #vars()
