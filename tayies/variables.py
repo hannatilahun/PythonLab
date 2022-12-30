@@ -12,3 +12,8 @@ def varType():
 
 #vars()
 varType()
+
+x=y=z="orang"
+print(x)
+print(y)
+print(z)
