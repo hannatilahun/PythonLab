@@ -1,3 +1,4 @@
+
 def sum():
     print("hello every one this is our firest python lab class")
     
@@ -23,5 +24,50 @@ def sum():
 sum()
 
 
+A="ABEBE"
+print(A[0])
+print(A[1])
+print(A[2])
+print(A[3])
+print(A[4])
+print(A[0])
+
+print(A[-1])
+print(A[-2])
+print(A[-3])
+print(A[-4])
+print(A[:4])
+print(A[-1:-4])
+print(A[::-1])
+x="hello,word"
+print(x.split(","))
+
+print(bin(60))
+print(int(60.46346))
+print(float(60))
+print(oct(60))
+print(str(60))
 
 
+y=int(input("please enter number"))
+
+if y%3==0:
+    print("hello")
+elif y%5==0:
+    print("world")
+elif y%3==0 and y%5==0:
+    print("hello world")
+  
+
+y=int(input("please enter number"))
+match y :
+   case 2 :
+    print("two")
+   case 4:
+     print("four")
+   case _:
+     print("other")
+      
+
+for i in range(1,10):
+    print(i)
