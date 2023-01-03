@@ -42,13 +42,6 @@ print(A[::-1])
 x="hello,word"
 print(x.split(","))
 
-print(bin(60))
-print(int(60.46346))
-print(float(60))
-print(oct(60))
-print(str(60))
-
-
 y=int(input("please enter number"))
 
 if y%3==0:
