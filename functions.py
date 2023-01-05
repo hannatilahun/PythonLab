@@ -1,6 +1,6 @@
 
 
-def sayHello(name):
-    print("Hello,"+name+"!!!")
+def sayHello(m,n):
+    return m+n
 
-sayHello("Joe")
+print(sayHello(5,5))
