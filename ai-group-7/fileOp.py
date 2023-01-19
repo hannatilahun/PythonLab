@@ -16,7 +16,14 @@ CharResult = charFrequencyCounter(words)
 
 
 def wordFrequencyDisplay():
-    
+    print("WELLCOME TO our PROJECT")
+    print( "\tNAME:                                         ID:\t");            
+    print("\tHanna Tilahun----------------------------0221/12\t")
+    print("\tTaye Brhanu------------------------------0963/12\t")
+    print("\tAbel Melis-------------------------------1864/12\t")
+    print("\tAron Tadesse----------------------------1369/12\t")
+    print("\tAbera Assefa----------------------------1697/12\t")    
+
     countLoop = 0
 
     print("\nDisplay words in decreasing order of their frequency:")
