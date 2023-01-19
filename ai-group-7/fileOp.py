@@ -3,9 +3,9 @@ from counter import *
 
 contents = str()
 countLine = 0
-with open("textfiles.txt", encoding='utf8') as f:
+with open("ai-group-7/textfiles.txt", encoding='utf8') as f:
     contents = f.read()
-with open("textfiles.txt", encoding='utf8') as f:
+with open("ai-group-7/textfiles.txt", encoding='utf8') as f:
     for lines in f: countLine = countLine + 1
 
 words = identifyWord(contents)
@@ -41,10 +41,11 @@ def charFrequencyDisplay():
             break
 
 def displayInfo():
-    print("\nOverall result:")
-    print(" ",countLine, "total lines")
-    print(" ",wordCountResult[1], "total words")
-    print(" ",CharResult[1], "total characters")
+    print("\nOverall result:","\n ",
+          countLine, "total lines","\n ",
+          wordCountResult[1], "total words","\n ",
+                          CharResult[1], "total characters")
+
     
 wordFrequencyDisplay()
 charFrequencyDisplay()
