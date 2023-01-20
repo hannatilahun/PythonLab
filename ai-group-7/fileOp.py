@@ -32,8 +32,6 @@ def wordFrequencyDisplay():
     for word,wordCount in wordCountResult[0].items():
         print("[",word,"]","=>",wordCount)
 
-        countLoop = countLoop + 1
-
 def charFrequencyDisplay():
 
     icount = 0
