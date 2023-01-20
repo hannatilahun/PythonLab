@@ -28,15 +28,11 @@ def groupNameInfo():
 
 def wordFrequencyDisplay():
     
-    countLoop = 0
-
     print("\nDisplay words in decreasing order of their frequency:")
     for word,wordCount in wordCountResult[0].items():
         print("[",word,"]","=>",wordCount)
 
         countLoop = countLoop + 1
-
-        if countLoop == 5: break
 
 def charFrequencyDisplay():
 
