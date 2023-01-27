@@ -16,10 +16,10 @@ while True:
 
     # Computer randomly selecting one of the choices
     computer_choice = random.choice(choices)
-
+    
     #Creation of an if statement to determine the winner of the round
     if player_choice == computer_choice:
-        print(f"draw! You both chose {player_choice}")
+        print(f"It's a tie! You both chose {player_choice}")
         draw_game +=1
     elif player_choice == "Rock":
         if computer_choice == "Paper":
@@ -38,32 +38,28 @@ while True:
     elif player_choice == "Scissors":
         if computer_choice == "Rock":
             print("You lose! Rock beats Scissors")
-
             computer_score += 1
         else:
             print("You win! Scissors beats Paper")
-
             player_score += 1
     else:
         print("Please enter a valid option")
       
-        new_game = input("Do you want to keep playing? (yes/no) ")
+    #Prompt the user to either keep playing or not
+    new_game = input("Do you want to keep playing? (Y/N) ")
 
-    if new_game == "no":
+    #Create an if statement that split the programing depending on the input 
+    if new_game == "N":
         break
     else:
         continue
              
 #Print the statistics of the game 
 print(f"Games Played: {player_score + computer_score + draw_game}")
-
 print(f"Your Score: {player_score}")
-
 print(f"Computer Score: {computer_score}")
-
 print(f"Draws: {draw_game}")
 """
-name : Abel Melis
-id : 1864
-
+Name : Abel Melis
+Id : 1864
 """
